@@ -1,16 +1,64 @@
-pre {
-  font-family: 'Arial', 'Helvetica', sans-serif;
-  color: #2a2a2a;
-  font-size: 16px;
+body {
+  font-family: Roboto;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
 
-pre::first-letter {
-  font-family: 'Tahoma', serif;
-  font-size: 32px;
-  color: greenyellow;
+.site-nav a:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
-
-pre::selection {
-  color: tomato;
-  background-color: #3f51b5;
+.auth-nav :hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.blu-text {
+  color: #2196f3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.black-text {
+  color: #212121;
+}
+.color-text {
+  color: #757575;
+}
+.background-grey {
+  background: #f5f4fa;
+}
+.white-text {
+  color: #ffffff;
+  background: #2196f3;
+}
+.hero-text {
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.text-transform {
+  text-transform: uppercase;
+}
+.color-and-back {
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
+  list-style: none;
+}
+.back {
+  background-color: #f5f4fa;
+}
+.back-footer {
+  background-color: #2f303a;
+}
+.list {
+  list-style: none;
 }
